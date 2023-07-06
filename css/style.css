@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(54, 54, 54);
+    margin: 0px;
+    min-width: 480px;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    padding: 25px;
+    margin: 0%;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* responsive */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    background-color: rgb(22, 22, 22);
+    border: solid 1px rgb(110, 110, 110);
+    padding: 5px;
+    margin: 15px;
+    margin-top: 0px;
+    /* responsive */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: auto;
+    padding: 15px;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+    padding: 15px;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    color: white;
+    background-color: rgb(35, 35, 35);
+    height: 700px; /* Pasar a "auto" cuando se le aplique contenido */
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* responsive */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+footer {
+    color: rgba(230, 230, 230, 0.815);
+    background-color: rgb(20, 20, 20);
+    padding: 3px;
+    text-align: center;
+    font-size: smaller;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* MODIFICACIONES PARA LA PAGINA DE BOOTSTRAP */
+
+.mainbootstrap {
+    height: 80vh;
+    padding-bottom: 0%;
+}
+
+article {
+    height: 100px;
+}
+
+#div1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#div2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.parrafooter {
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
